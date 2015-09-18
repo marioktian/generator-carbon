@@ -1,0 +1,85 @@
+[
+	{ 
+		"name":"Jack The Barber", 
+		"category":"E-commerce",
+		"image":"app/assets/img/jobs/jack-thumb.png",
+		"logo":""
+	},
+
+ 	{
+ 		"name":"Boa Saude Suplementos", 
+ 		"category":"E-commerce",
+		"image":"app/assets/img/jobs/boasaude-thumb.png",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Nike Shox",
+ 		"category":"Hotsite",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"The Beauty Box", 
+ 		"category":"E-commerce",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Quem Disse Berenice?", 
+ 		"category":"E-commerce",
+		"image":"app/assets/img/jobs/quemdisse-thumb.png",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Eudora", 
+ 		"category":"E-commerce",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Habibs", 
+ 		"category":"E-commerce",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Vtex", 
+ 		"category":"E-commerce",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Philipe Aquino", 
+ 		"category":"Portfolio",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Som Forte Eventos", 
+ 		"category":"Website",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"No Rebote", 
+ 		"category":"Blog",
+		"image":"",
+		"logo":""
+ 	},
+
+ 	{
+ 		"name":"Beleza Solidária", 
+ 		"category":"Blog",
+		"image":"",
+		"logo":""
+ 	}
+]

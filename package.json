@@ -1,0 +1,33 @@
+{
+  "name": "generator-carbon",
+  "version": "0.1.0",
+  "description": "A simple framework using angular to do my static websites",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquesosa/generator-carbon.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "generator",
+    "yeoman",
+    "yeoman-generator",
+    "angular",
+    "javascript"
+  ],
+  "author": {
+    "name": "Henrique Sosa",
+    "email": "henriquesosa@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yeoman-generator": "^0.20.3",
+    "yosay": "^1.0.5"
+  }
+}

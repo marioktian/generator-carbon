@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="<%= name %>">
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+
+		<title><%= name %></title>
+		<link rel="stylesheet" type="text/css" href="app/assets/css/main.min.css" />
+	</head>
+	<body ng-controller="MainCtrl">
+		<section  class="wrapper">
+			<ng-view></ng-view>
+		</section>
+
+		<!-- LIB -->
+
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+		<script src="bower_components/angular/angular.min.js"></script>
+
+		<script src="bower_components/angular-route/angular-route.min.js"></script>
+
+		<!-- ANGULAR -->
+		
+		<script src="app.js"></script>
+		<script src="app/components/home/home.js"></script>
+		<script src="app/components/about/about.js"></script>
+
+
+		<script type='text/javascript' id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.9.3.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+	</body>
+</html>

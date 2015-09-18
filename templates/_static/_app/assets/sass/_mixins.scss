@@ -1,0 +1,23 @@
+@mixin transform($property){
+	-webkit-transform: #{$property};
+    -moz-transform: #{$property};
+    -ms-transform: #{$property};
+    -o-transform: #{$property};
+    transform: #{$property};
+}
+
+@mixin transition($property){
+	-webkit-transition: #{$property};
+    -moz-transition: #{$property};
+    -ms-transition: #{$property};
+    -o-transition: #{$property};
+    transition: #{$property};
+}
+
+@mixin filter($property){
+    -webkit-filter: #{$property};
+    -moz-filter: #{$property};
+    -ms-filter: #{$property};
+    -o-filter: #{$property};
+    filter: #{$property};
+}
