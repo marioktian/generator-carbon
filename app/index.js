@@ -135,9 +135,13 @@ module.exports = yeoman.Base.extend({
 	},
 
 	install: function(){
-		if(this.deps)
-			this.installDependencies();
+		this.installDependencies({ skipInstall: !this.deps });
 	},
 
-	end: function(){},
+	end: function(){
+		this.log.writeln('');
+  		this.log.writeln('Looks like we\'re done!');
+  		this.log.writeln('Just run "grunt and be happy');
+  		this.log.writeln('');
+	},
 });
