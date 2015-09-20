@@ -24,6 +24,10 @@
     "name": "Henrique Sosa",
     "email": "henriquesosa@gmail.com"
   },
+  "bugs":{
+    "url": "https://github.com/henriquesosa/generator-carbon/issues"
+  },
+  "homepage": "https://github.com/henriquesosa/generator-carbon",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
