@@ -1,12 +1,12 @@
 # Carbon [![Build Status](https://travis-ci.org/henriquesosa/generator-carbon.svg?branch=master)](http://travis-ci.org/henriquesosa/generator-carbon)
 
-> This element the chemical basis of all known life
+> This element is the chemical basis of all known life
 
 Yeoman generator to create Surge websites with Browersync, Grunt, Sass & AngularJs
 
 ## Usage
 
-Install `yo`, `grunt-cli`, `bower`, `generator-carbon`:
+Install `yo`, `grunt-cli`, `bower`, `generator-carbon`, `surge`:
 
 ```bash
 
