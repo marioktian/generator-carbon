@@ -10,7 +10,7 @@ Install `yo`, `grunt-cli`, `bower`, `generator-carbon`, `surge`:
 
 ```bash
 
-npm install -g grunt-cli bower yo generator-carbon
+npm install -g grunt-cli bower yo generator-carbon surge
 
 ```
 Make a new directory, and `cd` into it:
