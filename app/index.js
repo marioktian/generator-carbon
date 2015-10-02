@@ -46,6 +46,16 @@ module.exports = yeoman.Base.extend({
 				type : 'input',
 				name : 'surg',
 				message : 'Your surge domain ( without surge.sh ): ',
+				default: this.appname,
+				validate: function(input) {
+			        var done = this.async();
+			        
+			        if (!new RegExp(/^[a-z\-\_]+$/).test(input)) {
+			        	done("The app name should only contain letters, '-' or '_'.");
+			        } else {
+			        	done(true);
+			    	}
+			    }
 			},
 			{
 				type : 'confirm',
@@ -135,7 +145,10 @@ module.exports = yeoman.Base.extend({
 	},
 
 	install: function(){
-		this.installDependencies({ skipInstall: !this.deps });
+		if(this.deps){
+			this.installDependencies();
+		}
+		
 	},
 
 	end: function(){
